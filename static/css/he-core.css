@@ -675,3 +675,7 @@ h5 a:hover {
   width:90%; height:auto;
   float:left;
 }
+
+.logos a:hover img {
+	opacity: .7;
+}

@@ -108,16 +108,14 @@ h2.description {
   	background:url("../img/m-logo.png");
   }
 
-  @media only screen and (-webkit-min-device-pixel-ratio: 2),
-    only screen and (-moz-min-device-pixel-ratio: 2),
-    only screen and (-o-min-device-pixel-ratio: 2/1),
-    only screen and (min-device-pixel-ratio: 2),
-    only screen and (min-resolution: 2dppx) {
+	@media only screen and (min-resolution: 192dpi) {
+  
   	h1 a { 
   	    background:url("../img/m-logo2x.png");
   	    background-size:155px 50px;
   	}
-  }
+
+	}
   
 
   /* Topbar */
@@ -145,16 +143,14 @@ h2.description {
     float:left !important;
   }
 
-  @media only screen and (-webkit-min-device-pixel-ratio: 2),
-    only screen and (-moz-min-device-pixel-ratio: 2),
-    only screen and (-o-min-device-pixel-ratio: 2/1),
-    only screen and (min-device-pixel-ratio: 2),
-    only screen and (min-resolution: 2dppx) {
+	@media only screen and (min-resolution: 192dpi) {
+
   	h1 a { 
   	    background:url("../img/m-logo2x.png");
   	    background-size:124px 40px;
   	}
-  }
+
+	}
   
   #topbar h1 a:hover {
     background-position:0 0;
@@ -225,7 +221,7 @@ h2.description {
 	/* Footer */
 
 	footer {
-		margin-top:40px;
+		margin-top:30px;
     padding: 0 0 40px 0;
 	}
 
@@ -272,7 +268,7 @@ h2.description {
   
   /* Columns */
   
-  .column-01, .column-02 {
+  .column-01 {
   	margin:0 0 40px 0;
   }
   
