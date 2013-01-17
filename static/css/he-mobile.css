@@ -93,9 +93,9 @@ h2.description {
 }
 
 
-/* Max Width, 685px */
+/* Max Width, 686px */
 
-@media (max-width:685px) {
+@media (max-width:686px) {
   
   /* General */
 
@@ -291,6 +291,9 @@ h2.description {
 
 }
 
+
+/* Max Width, 601px */
+
 @media (max-width:601px) {
 
   /* Columns */
@@ -335,9 +338,9 @@ h2.description {
 }
 
 
-/* Max Width, 480px */
+/* Max Width, 501px */
 
-@media (max-width:480px) {
+@media (max-width:501px) {
 
   /* Page */
 
