@@ -391,7 +391,6 @@ h2.description {
   /* Topbar */
   
   #topbar a {
-    font-size:13px;
     float:right;
   }
   
@@ -447,6 +446,30 @@ h2.description {
   
   #placa p {
     margin:0 !important;
+  }
+
+}
+
+/* Max Width, 281px */
+
+	@media (max-width:281px) {
+
+	/* Topbar */
+  
+	#topbar a {
+	  font-size:12px;
+	}
+	
+
+  /* Home */
+  
+  #call {
+    padding:50px 0 30px 0;
+  }
+  
+  h2.description {
+    font-size:20px;
+    line-height:27px;
   }
 
 }
