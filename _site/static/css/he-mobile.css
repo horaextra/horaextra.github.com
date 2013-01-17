@@ -222,19 +222,17 @@ h2.description {
   }
   
   
-  /* Footer */
+	/* Footer */
+
+	footer {
+		margin-top:40px;
+    padding: 0 0 40px 0;
+	}
 
   .foot-logo {
     display:none;
   }
-  
-  
-  /* Footer */
-  
-  footer {
-    padding: 0 0 40px 0;
-  }
-  
+
   
   /* Placa */
 
@@ -285,8 +283,8 @@ h2.description {
   
   /* Logos */
   
-  #logos {
-  	margin-bottom:50px !important;
+  .logos {
+  	margin-bottom:0 !important;
   }
 
 }
@@ -331,7 +329,7 @@ h2.description {
   
   /* Logo */
   
-  #logos > li {
+  .logos > li {
     width:50%;
   }
 
