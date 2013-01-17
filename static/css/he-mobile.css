@@ -383,9 +383,9 @@ h2.description {
 }
 
 
-/* Max Width, 361px */
+/* Max Width, 381px */
 
-@media (max-width:361px) {
+@media (max-width:381px) {
   
 
   /* Topbar */
@@ -428,6 +428,7 @@ h2.description {
   
   footer {
     padding-top:40px;
+
   }
   
   
