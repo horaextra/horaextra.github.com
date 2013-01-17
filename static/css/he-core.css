@@ -217,8 +217,13 @@ header h1 a {
 
 /* Posts */
 
+#posts {
+	margin-top:10px !important;
+	float:left;
+}
+
 #posts h2 {
-  margin-top:30px;
+  margin-top:10px !important;
 }
 
 #posts h2 a {
