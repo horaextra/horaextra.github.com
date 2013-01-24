@@ -247,6 +247,17 @@ h2.description {
     margin-right:30px;
     float:left;
   }
+
+  /* helabs */
+.helabs {
+  margin-top: 40px;
+  text-align: center;
+  width: 100%;
+}
+
+.helabs p {
+  float: none;
+}
   
 
   /* Home */

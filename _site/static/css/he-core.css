@@ -474,6 +474,20 @@ footer .holder {
   float:left;
 }
 
+/* helabs */
+.helabs {
+  float: right;
+  margin-top: 90px;
+  width: 364px;
+}
+
+.helabs p {
+  float: left;
+}
+
+.helabs img {
+  margin: 15px 0 0px 5px;
+}
 
 /* Home */
 
