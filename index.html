@@ -29,7 +29,6 @@ layout: default
   </h5>
   <ul id="post-infos">
     <li>Postado em {{ first_post.date | date: '%d/%m/%Y' }}</li>
-    <li>Por <a href="#">Sylvestre Mergulhão</a></li>
   </ul>
   <p>{{ first_post.content | strip_html | truncate: 600 }} <em>(...)</em></p>
 </div>
