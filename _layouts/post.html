@@ -1,190 +1,90 @@
-{% include head.html %}
-  <body>
-    <div id="topbar">
-      <div class="holder">
-        <h1>
-          <a href="index.html">
-          #horaextra
-          </a>
-        </h1>
-        <ul>
-          <li id="citys">
-            <a href="#">
-            Rio de Janeiro
-            </a>
-          </li>
-          <li>
-            <a href="blog.html">
-            Blog
-            </a>
-          </li>
-          <li>
-            <a href="historia.html">
-            História
-            </a>
-          </li>
-        </ul>
-      </div>
+---
+layout: blog
+---
+<h2>{{ page.title }}</h2>
+<ul id="post-infos">
+  <li>Postado em {{ page.date | date: '%d/%m/%Y' }}</li>
+  <li>Por <a href="#">Sylvestre Mergulhão</a></li>
+</ul>
+{{ content }}
+<h3>
+  Comentários<br />
+  <span>Got an account with one of these? Login here, or just enter your comment below.</span>
+</h3>
+<ul class="comments">
+  <li>
+    <img src="/static/img/writers/sylvestre.jpg" alt="Sylvestre" />
+    <div>
+      <a href="#">
+      Sylvestre  Mergulhão
+      </a>
+      <ul class="comment-infos">
+        <li>20/02/2013</li>
+      </ul>
+      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore!</p>
     </div>
-    <!-- /topbar -->
-    <header>
-      <div class="holder">
-        <h1>
-          <a href="index.html">
-          Hora Extra
-          </a>
-        </h1>
-      </div>
-    </header>
-    <!-- /header -->
-    <div class="holder">
-      <section id="content">
-        <h2>{{ page.title }}</h2>
-        <ul id="post-infos">
-          <li>Postado em {{ page.date | date: '%d/%m/%Y' }}</li>
-          <li>Por <a href="#">Sylvestre Mergulhão</a></li>
-        </ul>
-        {{ content }}
-        <h3>
-          Comentários<br />
-          <span>Got an account with one of these? Login here, or just enter your comment below.</span>
-        </h3>
-        <ul class="comments">
-          <li>
-            <img src="/static/img/writers/sylvestre.jpg" alt="Sylvestre" />
-            <div>
-              <a href="#">
-              Sylvestre  Mergulhão
-              </a>
-              <ul class="comment-infos">
-                <li>20/02/2013</li>
-              </ul>
-              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore!</p>
-            </div>
-          </li>
-          <li>
-            <img src="/static/img/writers/avatar.jpg" alt="Usu&aacute;rio An&ocirc;nimo" />
-            <div>
-              <span class="cm-user">
-              Usuário Anônimo
-              </span>
-              <ul class="comment-infos">
-                <li>20/02/2013</li>
-              </ul>
-              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore!</p>
-            </div>
-          </li>
-          <li>
-            <img src="/static/img/writers/eduardo.jpg" alt="Eduardo" />
-            <div>
-              <a href="#">
-              Eduardo Fiorezi
-              </a>
-              <ul class="comment-infos">
-                <li>20/02/2013</li>
-              </ul>
-              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore!</p>
-            </div>
-          </li>
-          <li>
-            <img src="/static/img/writers/rafael.jpg" alt="Rafael" />
-            <div>
-              <a href="#">
-              Rafael Lima
-              </a>
-              <ul class="comment-infos">
-                <li>20/02/2013</li>
-              </ul>
-              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore!</p>
-            </div>
-          </li>
-        </ul>
-        <h3>Deixe seu comentário</h3>
-        <form id="valid" action="/login" method="post" data-persist="garlic">
-          <ul>
-            <li>
-              <label for="cm-name">Nome:</label>
-              <input type="text" id="cm-name" name="cm-name" />
-            </li>
-            <li>
-              <label for="cm-email">Email:</label>
-              <input type="text" id="cm-email" name="cm-email" />
-            </li>
-            <li>
-              <label for="cm-url">URL (opcional):</label>
-              <input type="text" id="cm-url" name="cm-url" />
-            </li>
-            <li>
-              <label for="cm-comment">Comentário</label>
-              <textarea type="text" id="cm-comment" name="cm-comment"></textarea>
-            </li>
-            <li>
-              <a class="buts" onclick="document.getElementById('valid').submit();return false;">
-              Comentar
-              </a>
-              <input class="input-hide" type="submit" value="Submit the form!" />
-            </li>
-          </ul>
-        </form>
-      </section>
-      <!-- /content -->
-      <aside>
-        <section id="next-event">
-          <h4>Próximo Evento</h4>
-          <p>Dia 16 de Janeiro, 2013.</p>
-          <address>
-            <a href="#">Lanchão &amp; CIA</a>		
-            <p>
-              Rua do Ouvidor, Centro.<br />
-              Rio de Janeiro, RJ.
-            <p>
-          </address>
-          <img src="http://maps.googleapis.com/maps/api/staticmap?center=Rio+De+Janeiro,RJ&amp;zoom=15&amp;size=270x200&amp;maptype=roadmap
-&amp;markers=color:blue%7Clabel:S%7C40.702147,-74.015794&amp;markers=color:green%7Clabel:G%7C40.711614,-74.012318
-&amp;markers=color:red%7Ccolor:red%7Clabel:C%7C40.718217,-73.998284&amp;sensor=true" />
-        </section>
-        <!-- /next-event -->
-        <h4>Contribuidores</h4>
-        <ul class="comments">
-          <li>
-            <img src="/static/img/writers/sylvestre.jpg" alt="Sylvestre" />
-            <div>
-              <a href="#">
-              Sylvestre  Mergulhão
-              </a>
-              <p>
-                Mentor de Tecnologia<br />
-                HE:labs
-              </p>
-            </div>
-          </li>
-          <li>
-            <img src="/static/img/writers/eduardo.jpg" alt="Eduardo" />
-            <div>
-              <a href="#">
-              Eduardo Fiorezi
-              </a>
-              <p>
-                Developer<br />
-                HE:labs
-              </p>
-            </div>
-          </li>
-          <li>
-            <img src="/static/img/writers/rafael.jpg" alt="Rafael" />
-            <div>
-              <a href="#">
-              Rafael Lima
-              </a>
-              <p>
-                Mentor de Estratégia<br />
-                HE:labs
-              </p>
-            </div>
-          </li>
-        </ul>
-      </aside>
-      <!-- /aside -->
+  </li>
+  <li>
+    <img src="/static/img/writers/avatar.jpg" alt="Usu&aacute;rio An&ocirc;nimo" />
+    <div>
+      <span class="cm-user">
+      Usuário Anônimo
+      </span>
+      <ul class="comment-infos">
+        <li>20/02/2013</li>
+      </ul>
+      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore!</p>
     </div>
-    <!-- holder -->
-{% include footer.html %}
+  </li>
+  <li>
+    <img src="/static/img/writers/eduardo.jpg" alt="Eduardo" />
+    <div>
+      <a href="#">
+      Eduardo Fiorezi
+      </a>
+      <ul class="comment-infos">
+        <li>20/02/2013</li>
+      </ul>
+      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore!</p>
+    </div>
+  </li>
+  <li>
+    <img src="/static/img/writers/rafael.jpg" alt="Rafael" />
+    <div>
+      <a href="#">
+      Rafael Lima
+      </a>
+      <ul class="comment-infos">
+        <li>20/02/2013</li>
+      </ul>
+      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore!</p>
+    </div>
+  </li>
+</ul>
+<h3>Deixe seu comentário</h3>
+<form id="valid" action="/login" method="post" data-persist="garlic">
+  <ul>
+    <li>
+      <label for="cm-name">Nome:</label>
+      <input type="text" id="cm-name" name="cm-name" />
+    </li>
+    <li>
+      <label for="cm-email">Email:</label>
+      <input type="text" id="cm-email" name="cm-email" />
+    </li>
+    <li>
+      <label for="cm-url">URL (opcional):</label>
+      <input type="text" id="cm-url" name="cm-url" />
+    </li>
+    <li>
+      <label for="cm-comment">Comentário</label>
+      <textarea type="text" id="cm-comment" name="cm-comment"></textarea>
+    </li>
+    <li>
+      <a class="buts" onclick="document.getElementById('valid').submit();return false;">
+      Comentar
+      </a>
+      <input class="input-hide" type="submit" value="Submit the form!" />
+    </li>
+  </ul>
+</form>
