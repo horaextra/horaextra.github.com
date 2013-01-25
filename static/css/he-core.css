@@ -671,6 +671,11 @@ h5 a:hover {
 	opacity: .7;
 }
 
+/* Blog featured */
+
+#blog-featured {
+  width: 100%;
+}
 
 /* Logos */
 
