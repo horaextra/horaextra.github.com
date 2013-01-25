@@ -11,7 +11,6 @@ layout: blog
       </h2>
       <ul id="post-infos">
         <li>Postado em {{ post.date | date: '%d/%m/%Y' }}</li>
-        <li><a href="#">7 comentários</a></li>
       </ul>
       <p>{{ post.content | strip_html | truncate: 120 }} <em>(...)</em></p>
     </li>
