@@ -27,7 +27,7 @@
     <link rel="stylesheet" type="text/css" href="/static/css/he-web.css" media="screen" />
     <![endif]-->
   </head>
-  <body id="home">
+  <body>
     <div id="topbar">
       <div class="holder">
         <h1>
@@ -55,60 +55,78 @@
       </div>
     </div>
     <!-- /topbar -->
-    <div class="holder">
-      <section id="call">
+    <header>
+      <div class="holder">
         <h1>
-          <img src="/static/img/h-logo.png" alt="Hora Extra" />
+          <a href="index.html">
+          Hora Extra
+          </a>
         </h1>
-        <h2 class="description">
-          Encontro semanal de desenvolvedores para trocar idéias e beber um chopp.
-        </h2>
+      </div>
+    </header>
+    <!-- /header -->
+    <div class="holder">
+      <section id="content">
+        {{ content }}
       </section>
-      <!-- /call -->
-      {{ content }}
-      <h4>Iniciativas</h4>
-      <ul class="logos">
-        <li>
-          <a href="http://smallactsmanifesto.org" title="Small Acts Manifesto">
-          <img src="/static/img/logos/iniciativas/smallacts.jpg" alt="Small Acts Manifesto" />
-          </a>
-        </li>
-        <li>
-          <a rel="external" href="http://dojorio.org/" title="Coding Dojo Rio">
-          <img src="/static/img/logos/iniciativas/dojorio.jpg" alt="Dojorio" />
-          </a>
-        </li>
-        <li>
-          <a rel="external" href="http://pythonrio.org/" title="Python Rio">
-          <img src="/static/img/logos/iniciativas/pythonrio.jpg" alt="Python Rio" />
-          </a>
-        </li>
-        <li>
-          <a rel="external" href="http://www.openspacerio.org/" title="Open Space Rio">
-          <img src="/static/img/logos/iniciativas/openspacerio.jpg" alt="Open Space Rio" />
-          </a>
-        </li>
-        <li>
-          <a rel="external" href="http://forkinrio.appspot.com/" title="ForkInRio. Apenas um grupo de estudos diferente.">
-          <img src="/static/img/logos/iniciativas/forkinrio.jpg" alt="Fork In Rio" />
-          </a>
-        </li>
-        <li>
-          <a rel="external" href="http://www.python.org.br/ ">
-          <img src="/static/img/logos/iniciativas/pythonbrasil.jpg" alt="Python Brasil" />
-          </a>
-        </li>
-        <li>
-          <a rel="external" href="http://rubyonrio.heroku.com/">
-          <img src="/static/img/logos/iniciativas/rubyonrio.jpg" alt="Ruby On Rio" />
-          </a>
-        </li>
-        <li>
-          <a rel="external" href="http://pythoncampus.org/evento/unesa-madureira/">
-          <img src="/static/img/logos/iniciativas/pythoncampus.jpg" alt="Python Campus" />
-          </a>
-        </li>
-      </ul>
+      <!-- /content -->
+      <aside>
+        <section id="next-event">
+          <h4>Próximo Evento</h4>
+          <p>Dia 16 de Janeiro, 2013.</p>
+          <address>
+            <a href="#">Lanchão &amp; CIA</a>		
+            <p>
+              Rua do Ouvidor, Centro.<br />
+              Rio de Janeiro, RJ.
+            <p>
+          </address>
+          <img src="http://maps.googleapis.com/maps/api/staticmap?center=Rio+De+Janeiro,RJ&amp;zoom=15&amp;size=270x200&amp;maptype=roadmap
+&amp;markers=color:blue%7Clabel:S%7C40.702147,-74.015794&amp;markers=color:green%7Clabel:G%7C40.711614,-74.012318
+&amp;markers=color:red%7Ccolor:red%7Clabel:C%7C40.718217,-73.998284&amp;sensor=true" />
+        </section>
+        <!-- /next-event -->
+        <h4>Contribuidores</h4>
+        <ul class="comments">
+          <li>
+            <img src="/static/img/writers/sylvestre.jpg" alt="Sylvestre" />
+            <div>
+              <a href="#">
+              Sylvestre  Mergulhão
+              </a>
+              <p>
+                Mentor de Tecnologia<br />
+                HE:labs
+              </p>
+            </div>
+          </li>
+          <li>
+            <img src="/static/img/writers/eduardo.jpg" alt="Eduardo" />
+            <div>
+              <a href="#">
+              Eduardo Fiorezi
+              </a>
+              <p>
+                Developer<br />
+                HE:labs
+              </p>
+            </div>
+          </li>
+          <li>
+            <img src="/static/img/writers/rafael.jpg" alt="Rafael" />
+            <div>
+              <a href="#">
+              Rafael Lima
+              </a>
+              <p>
+                Mentor de Estratégia<br />
+                HE:labs
+              </p>
+            </div>
+          </li>
+        </ul>
+      </aside>
+      <!-- /aside -->
     </div>
     <!-- holder -->
     <footer>
@@ -118,11 +136,6 @@
           <p>O estabelecimento conta com uma placa do evento para você não ficar igual um bobo procurando a galera (;</p>
         </div>
         <!-- /placa -->
-        <div class="helabs">
-          <p>Apoiado com muito carinho pela</p>
-          <img src="/static/img/HElabs.png" alt="HE:labs" />
-        </div>
-        <!-- /helabs -->
         <span class="foot-logo">
         <img src="/static/img/footer-ill.png" width="160" height="166" alt="Hora Extra" />
         </span>
