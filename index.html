@@ -69,18 +69,18 @@ layout: default
   </ul>
 </div>
 <!-- /column-01 -->
+{% assign first_post = site.posts.first %}
 <div class="column-02">
   <h4>Blog</h4>
   <h5>
-    <a href="post.html">
-    John Maddog Hall in Rio and the First Hora Extra in Buenos Aires.
+    <a href="{{ first_post.url }}">
+    {{ first_post.title }}
     </a>
   </h5>
   <ul id="post-infos">
-    <li>Postado em 20/02/2013</li>
+    <li>Postado em {{ first_post.date | date: '%d/%m/%Y' }}</li>
     <li>Por <a href="#">Sylvestre Mergulhão</a></li>
   </ul>
-  <p>It'll take place on Tuesday, June 7th 2011, at Wherever Bar, located at Oro 2476, Buenos Aires at 7:00 PM. If you're a <a href="#">geek and happens</a> to be in Buenos Aires tomorrow night, please be more than welcome to join us!</p>
-  <p>There are great things happening now in the software development community here in Buenos Aires, as well as there, in Rio. Unfortunately, it often happens that one community knows little or nothing about what's happening in the <em>(...)</em></p>
+  <p>{{ first_post.content | strip_html | truncate: 600 }} <em>(...)</em></p>
 </div>
 <!-- /column-02 -->
