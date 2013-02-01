@@ -1,23 +1,29 @@
 ---
 layout: default
 ---
-<section id="next">
-  <div class="next-infos">
-    <h3>Rio de Janeiro</h3>
-    <p>Toda segunda às 19:30h</p>
-    <address>
-      <a href="{{ site.place.url }}">{{ site.place.name }}</a>.<br />
-      <p>{{ site.place.address }}</p>
-    </address>
-  </div>
-  <!-- /next-infos -->
-  <ul class="social">
-    <li id="share-twitter">
-      <a href="https://twitter.com/horaextrario">Twitter</a>
-    </li>
-  </ul>
-  <iframe width="940" height="350" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="{{ site.place.embed_url }}"></iframe>
-</section>
+
+{% if site.places %}
+  <h3 class="next-meetups-h3">Próximos encontros</h3>
+  {% for place in site.places %}
+  <section id="next">
+    <div class="next-infos">
+      <h3 class="next-h3">{{ place.city }}</h3>
+      <p>Toda segunda às 19:30h</p>
+      <address>
+        <a href="{{ place.url }}">{{ place.name }}</a>.<br />
+        <p>{{ place.address }}</p>
+      </address>
+    </div>
+    <ul class="social">
+      <li id="share-twitter">
+        <a href="{{ place.twitter_url }}">Twitter</a>
+      </li>
+    </ul>
+    <iframe width="940" height="350" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="{{ place.embed_url }}"></iframe>
+  </section>
+  {% endfor %}
+{% endif %}
+
 <!-- /next -->
 {% assign first_post = site.posts.first %}
 <div id="blog-featured" class="column-02">
@@ -33,4 +39,3 @@ layout: default
   <p>{{ first_post.content | strip_html | truncate: 600 }} <em>(...)</em></p>
 </div>
 <!-- /column-02 -->
->>>>>>> a4d38b7320c263782c3c42890781e81bc5a7baf1
