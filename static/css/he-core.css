@@ -426,7 +426,7 @@ aside .comments a {
 }
 
 
-#next-event img {
+#next-event iframe {
   width:100%; height:200px;
   margin:20px 0 0 0;
 }
@@ -548,7 +548,7 @@ h2.description {
 	clear:both;
 }
 
-#next img {
+#next iframe {
 	width:100%;
 	border-top:5px solid #e1e1e1;
 	border-bottom:5px solid #e1e1e1;
@@ -671,6 +671,11 @@ h5 a:hover {
 	opacity: .7;
 }
 
+/* Blog featured */
+
+#blog-featured {
+  width: 100%;
+}
 
 /* Logos */
 

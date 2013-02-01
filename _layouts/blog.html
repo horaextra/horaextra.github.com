@@ -1,0 +1,36 @@
+{% include head.html %}
+  <body>
+    {% include topbar.html %}
+    <header>
+      <div class="holder">
+        <h1>
+          <a href="/">
+          Hora Extra
+          </a>
+        </h1>
+      </div>
+    </header>
+    <!-- /header -->
+    <div class="holder">
+      <section id="content">
+        {{ content }}
+      </section>
+      <!-- /content -->
+      <aside>
+        <section id="next-event">
+          <h4>Próximo Evento</h4>
+          <p>Toda segunda às 19:30h</p>
+          <address>
+            <a href="{{ site.place.url }}">{{ site.place.name }}</a>		
+            <p>
+              {{ site.place.address }}
+            <p>
+          </address>
+          <iframe frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="{{ site.place.embed_url }}"></iframe>
+        </section>
+        <!-- /next-event -->
+      </aside>
+      <!-- /aside -->
+    </div>
+    <!-- holder -->
+{% include footer.html %}
