@@ -80,6 +80,8 @@ h3, h4 {
 
 h3 {
   color: #000;
+  font-weight: bold;
+  font-size: 30px;
 }
 
 h4 {
