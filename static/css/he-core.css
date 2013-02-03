@@ -513,6 +513,7 @@ h2.description {
 	width:100%;
 	float:left;
   border-bottom: 5px solid #e1e1e1;
+  padding: 0 0 50px;
 }
 
 
@@ -520,6 +521,7 @@ h2.description {
   border: none;
   color: #F6C535;
   margin: 0 0 20px;
+  font-size: 25px;
 }
 
 #next p {
