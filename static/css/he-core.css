@@ -390,7 +390,7 @@ aside .comments a {
   float:left;
 }
 
-#next-event h4 {
+#next-event h3 {
   width:93%;
   border-bottom:none;
   padding:0;
@@ -400,13 +400,20 @@ aside .comments a {
   color:#000;
 }
 
+#next-event h4 {
+  color: #f6c535;
+  margin: 20px 0 0;
+  border: none;
+  border-top: 5px solid #e1e1e1;
+  padding: 20px 0 10px;
+}
+
 #next-event > p {
-  margin:0 0 15px 7%;
-  font-size:14px;
+  margin: 0 0 15px;
+  font-size: 14px;
 }
 
 #next-event address {
-  margin-left:7%;
   font-style:normal;
 }
 
