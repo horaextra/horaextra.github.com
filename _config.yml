@@ -6,6 +6,7 @@ permalink:  :pretty
 places:
   -
     city: Rio de Janeiro
+    time: Toda segunda às 19:30h
     name: Antigamente Bar e Restaurante
     address: Rua do Ouvidor 43, Centro. Rio de Janeiro, RJ
     url: http://goo.gl/maps/pevBY
@@ -13,6 +14,7 @@ places:
     twitter_url: https://twitter.com/horaextrario
   -
     city: João Pessoa
+    time: Encontros periódicos, acompanhe no twitter
     name: Real Botequim - Mag Shopping
     address: Av. Governador Flávio Ribeiro Coutinho, 115, Manaíra. João Pessoa, PB
     url: http://goo.gl/maps/KrOif
