@@ -1,39 +1,49 @@
 {% include head.html %}
-  <body>
-    {% include topbar.html %}
-    <header>
-      <div class="holder">
-        <h1>
-          <a href="/">
-          Hora Extra
-          </a>
-        </h1>
-      </div>
-    </header>
-    <!-- /header -->
+  
+<body>
+    
+  {% include topbar.html %}
+    
+  <header>
     <div class="holder">
-      <section id="content">
-        {{ content }}
-      </section>
-      <!-- /content -->
-      <aside>
-        <section id="next-event">
-          <h3>Próximos Eventos</h3>
-          {% for place in site.places %}
-          <h4>{{ place.city }}</h4>
-          <p>{{ place.time }}</p>
-          <address>
-            <a href="{{ place.url }}">{{ place.name }}</a>		
-            <p>
-              {{ place.address }}
-            <p>
-          </address>
-          <iframe frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="{{ place.embed_url }}"></iframe>
-          {% endfor %}
-        </section>
-        <!-- /next-event -->
-      </aside>
-      <!-- /aside -->
+        
+      <h1>
+        <a href="/">
+          Hora Extra
+        </a>
+      </h1>
+
     </div>
-    <!-- holder -->
-{% include footer.html %}
+  </header> <!-- /header -->
+
+  <div class="holder">
+
+    <section id="content">
+      {{ content }}
+    </section>
+      
+    <aside>
+      <section id="next-event">
+
+        <h3>Próximos Eventos</h3>
+        {% for place in site.places %}
+
+        <h4>{{ place.city }}</h4>
+        <p>{{ place.time }}</p>
+
+        <address>
+          <a href="{{ place.url }}">{{ place.name }}</a>		
+          <p>
+            {{ place.address }}
+          <p>
+        </address>
+
+        {% endfor %}
+
+      </section> <!-- /next-event -->
+
+    </aside> <!-- /aside -->
+      
+  </div> <!-- holder -->
+    
+  {% include footer.html %}
