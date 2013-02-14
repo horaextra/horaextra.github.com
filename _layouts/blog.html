@@ -1,12 +1,12 @@
 {% include head.html %}
-  
+
 <body>
-    
+
   {% include topbar.html %}
-    
+
   <header>
     <div class="holder">
-        
+
       <h1>
         <a href="/">
           Hora Extra
@@ -21,7 +21,7 @@
     <section id="content">
       {{ content }}
     </section>
-      
+
     <aside>
       <section id="next-event">
 
@@ -32,7 +32,7 @@
         <p>{{ place.time }}</p>
 
         <address>
-          <a href="{{ place.url }}">{{ place.name }}</a>		
+          <a href="{{ place.url }}">{{ place.name }}</a>
           <p>
             {{ place.address }}
           <p>
@@ -43,7 +43,39 @@
       </section> <!-- /next-event -->
 
     </aside> <!-- /aside -->
-      
+
   </div> <!-- holder -->
-    
-  {% include footer.html %}
+
+  <footer>
+    <div class="holder">
+      <div id="placa">
+        <img src="/static/img/placa.png" alt="Placa Hora Extra" />
+        <p>O estabelecimento conta com uma placa do evento para você não ficar igual um bobo procurando a galera (;</p>
+      </div>
+      <!-- /placa -->
+      <div class="helabs">
+        <p>Apoiado com muito carinho pela</p>
+        <a href="http://helabs.com.br" title="HE:labs" target="_blank"><img src="/static/img/footer-logo.png" alt="HE:labs" /></a>
+      </div>
+      <!-- /helabs -->
+      <span class="foot-logo">
+      <img src="/static/img/footer-ill.png" width="160" height="166" alt="Hora Extra" />
+      </span>
+    </div>
+  </footer>
+  <!-- /footer -->
+  <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
+  <script type="text/javascript">
+    /* * * CONFIGURATION VARIABLES: EDIT BEFORE PASTING INTO YOUR WEBPAGE * * */
+    var disqus_shortname = 'horaextra'; // required: replace example with your forum shortname
+
+    /* * * DON'T EDIT BELOW THIS LINE * * */
+    (function () {
+        var s = document.createElement('script'); s.async = true;
+        s.type = 'text/javascript';
+        s.src = 'http://' + disqus_shortname + '.disqus.com/count.js';
+        (document.getElementsByTagName('HEAD')[0] || document.getElementsByTagName('BODY')[0]).appendChild(s);
+    }());
+  </script>
+  </body>
+</html>

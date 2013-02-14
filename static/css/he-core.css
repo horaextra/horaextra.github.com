@@ -704,3 +704,7 @@ h5 a:hover {
 .logos a:hover img {
 	opacity: .7;
 }
+
+#disqus_thread {
+  margin-top: 30px;
+}
