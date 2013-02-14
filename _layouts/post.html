@@ -5,6 +5,7 @@ layout: blog
 <ul id="post-infos">
   <li>Postado em {{ page.date | date: '%d/%m/%Y' }}</li>
   <li><a href="{{ post.url }}#disqus_thread">Comentários</a></li>
+  <li>Por {{ page.author }} </li>
 </ul>
 {{ content }}
 
