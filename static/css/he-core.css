@@ -20,7 +20,7 @@ header, footer, aside, nav, article, section {display:block}
 html {font-size:62.5%}
 
 label {cursor:pointer}
-img {border:none}
+img {border:none;}
 
 ul {margin:0; padding:0}
 li {list-style-type:none}
@@ -188,6 +188,10 @@ header h1 a {
 	background:url("../img/int-border.png") top repeat-x;
   padding:0 0 90px 0;
 	float:left;
+}
+
+#content img {
+  max-width: 100%;
 }
 
 #content a {
