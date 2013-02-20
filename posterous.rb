@@ -45,6 +45,7 @@ while posts.any?
 	posts.each do |post|
 		puts post.title
     slug = post.title.gsub(/[^[:alnum:]]+/, '-').downcase
+    author = post.author_display_name
 		date = Date.parse(post.display_date)
 		published = !post.is_private
 		post_name = "%02d-%02d-%02d-%s" % [date.year, date.month, date.day, slug]
@@ -63,6 +64,7 @@ while posts.any?
 			'title' => post.title.to_s,
 			'published' => published,
 			'categories' => tags,
+			'author' => author
 		}.delete_if { |k,v| v.nil? || v == ''}.to_yaml
 
 		content = post.body_html
