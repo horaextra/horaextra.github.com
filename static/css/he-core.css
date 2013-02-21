@@ -594,13 +594,20 @@ h2.description {
 	clear:both;
 }
 
-#next iframe {
+#next .map {
 	width:100%;
 	border-top:5px solid #e1e1e1;
 	border-bottom:5px solid #e1e1e1;
 	padding:1px 0 1px 0;
 	margin:40px 0 0 0;
 	float:left;
+  display: block;
+}
+
+
+#next a.map img {
+  width: 100%;
+  display: block;
 }
 
 /*-*/

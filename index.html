@@ -19,7 +19,11 @@ layout: default
         <a href="http://twitter.com/share?text=Eu%20vou%20no%20%23horaextra%20na%20{{ place.address }}%20-%20Chega%20mais!&url=http://horaextra.org" target="_blank">Twitter</a>
       </li>
     </ul>
-    <iframe width="940" height="350" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="{{ place.embed_url }}"></iframe>
+
+    <iframe class="map embed" width="940" height="350" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://maps.google.com/maps?q={{ place.name }}, {{ place.address }}&amp;z=15&amp;output=embed"></iframe>
+
+    <a class="map static" href="{{ place.url }}"><img src="http://maps.googleapis.com/maps/api/staticmap?center={{ place.geolocation }}&amp;markers=color:0xF6C535|{{ place.geolocation }}&amp;zoom=15&amp;size=750x350&amp;sensor=false" /></a>
+
   </section>
   {% endfor %}
 {% endif %}

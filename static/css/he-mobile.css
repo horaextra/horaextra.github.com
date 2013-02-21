@@ -23,6 +23,8 @@
   line-height:40px;
 }
 
+#next .map.embed { display: none }
+
 /*-*/
 
 #post-infos {
