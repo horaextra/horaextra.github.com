@@ -80,3 +80,5 @@ h2.description {
 #gallery > li {
   width:31.3%;
 }
+
+#next .map.static { display: none }
