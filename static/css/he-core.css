@@ -418,11 +418,11 @@ aside .comments a {
 }
 
 #next-event address a {
-  height:19px;
 	background:url("../img/location-icon-blue.png") left no-repeat;
 	padding:2px 0 0 23px;
   margin:0 0 3px 0;
   float:left;
+  width: 90%;
 }
 
 #next-event address p {
