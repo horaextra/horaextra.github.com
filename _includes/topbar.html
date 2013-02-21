@@ -2,10 +2,10 @@
   <div class="holder">
     <h1>
       <a href="/">
-      #horaextra
+        #horaextra
       </a>
     </h1>
-    <ul>
+    <ul id="nav">
       <li id="citys">
         <a href="/">
         Locais
@@ -32,6 +32,12 @@
         </a>
       </li>
     </ul>
+    <script>
+      $("#nav").addClass("none").before('<div id="responsive-menu">☰</div>');
+      $("#responsive-menu").click(function(){
+        $("#nav").toggle();
+      });
+    </script>
   </div>
 </div>
 <!-- /topbar -->

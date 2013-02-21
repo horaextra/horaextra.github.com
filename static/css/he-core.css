@@ -151,6 +151,59 @@ address {
   color:#fff;
 }
 
+#responsive-menu {
+  display: block;
+  background:#ddd;
+  font-size:1.35em;
+  text-align: center;
+  float: right;
+  padding: 8px;
+  border-radius: 3px;
+  margin: 4px;
+}
+
+
+@media screen and (max-width: 768px) {
+    #responsive-menu {
+      display: block;
+      background:#ddd;
+      font-size:1.35em;
+      text-align: center;
+      float: right;
+      padding: 8px;
+      border-radius: 3px;
+      margin: 4px;
+    }
+    .none {
+      display: none;
+    }
+    #nav a {
+      width: 100%;
+      border-bottom: 1px solid #F6C535;
+    }
+
+    #citys a {
+      margin-left: 10px;
+      background:#5a5a5a 0 0 no-repeat;
+      padding:0 10px !important;
+      float:right;
+    }
+  }
+
+  @media screen and (max-width: 480px) {
+    #citys a {
+      background:#5a5a5a url("../img/location-icon.png") 0 0 no-repeat;
+      padding:0 15px 0 46px !important;
+    }
+  }
+
+  @media screen and (min-width: 768px) {
+    #responsive-menu {
+      display: none;
+    }
+  }
+
+
 /*-*/
 
 #topbar h1 a {
@@ -172,7 +225,7 @@ header h1 a {
 	background:url("../img/logo.png");
 }
 
-@media only screen and (min-resolution: 192dpi) {
+@media only screen and (min-resolution: 768px) {
 
 	header h1 a {
 	    background:url("../img/logo2x.png");
@@ -180,7 +233,6 @@ header h1 a {
 	}
 
 }
-
 
 /* Content */
 
@@ -470,7 +522,7 @@ footer .holder {
   float:left;
 }
 
-@media only screen and (min-resolution: 192dpi) {
+@media only screen and (min-resolution: 768px) {
 
 	.foot-he a { 
 	    background:url("../img/footer-logo2x.png");
