@@ -8,23 +8,23 @@ places:
     city: Rio de Janeiro
     time: Toda segunda às 19:30h
     name: Antigamente Bar e Restaurante
-    address: Rua do Ouvidor 43, Centro. Rio de Janeiro, RJ
+    address: R. do Ouvidor, 43 - Centro - Rio de Janeiro, RJ
+    geolocation: -22.902388,-43.175712
     url: http://goo.gl/maps/pevBY
-    embed_url: https://maps.google.com/maps?q=antigamente+ouvidor&amp;hl=en&amp;hq=antigamente+ouvidor&amp;radius=15000&amp;t=m&amp;ie=UTF8&amp;hnear=&amp;cid=14248734834522576877&amp;ll=-22.897406,-43.171592&amp;spn=0.018976,0.027466&amp;z=15&amp;iwloc=A&amp;output=embed
     twitter_url: https://twitter.com/horaextrario
   -
     city: João Pessoa
     time: Encontros periódicos, acompanhe no twitter
     name: Real Botequim - Mag Shopping
     address: Av. Governador Flávio Ribeiro Coutinho, 115, Manaíra. João Pessoa, PB
+    geolocation: -7.097656,-34.833956
     url: http://goo.gl/maps/KrOif
-    embed_url: https://maps.google.com/maps?q=real+botequim+joao+pessoa&amp;hl=en&amp;ie=UTF8&amp;sll=37.0625,-95.677068&amp;sspn=34.945679,64.248047&amp;t=m&amp;hq=real+botequim&amp;hnear=Jo%C3%A3o+Pessoa+-+Para%C3%ADba,+Brazil&amp;z=14&amp;iwloc=A&amp;cid=11812395456225338246&amp;ll=-7.097656,-34.833956&amp;output=embed
     twitter_url: https://twitter.com/horaextrajp
   -
     city: Salvador
     time: Toda segunda às 18:00h
     name: Café Feito a Grão - mezanino da Livraria Saraiva - Shopping Iguatemi
     address: Av. Tancredo Neves, 148, Caminho das Árvores. Salvador, BA
+    geolocation: -12.98113,-38.464165
     url: http://goo.gl/maps/i6Rtk
-    embed_url: https://maps.google.com/maps?f=q&amp;source=s_q&amp;hl=pt-BR&amp;geocode=&amp;q=Caf%C3%A9+Feito+a+Gr%C3%A3o+iguatemi&amp;aq=&amp;sll=-13.229251,-38.084106&amp;sspn=3.117198,4.916382&amp;ie=UTF8&amp;hq=Caf%C3%A9+Feito+a+Gr%C3%A3o+iguatemi&amp;hnear=&amp;ll=-12.98113,-38.464165&amp;spn=0.01219,0.019205&amp;t=m&amp;z=14&amp;iwloc=A&amp;cid=4793389418133531392&amp;output=embed
     twitter_url: https://twitter.com/horaextrassa
