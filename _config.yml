@@ -28,3 +28,10 @@ places:
     geolocation: -12.98113,-38.464165
     url: http://goo.gl/maps/i6Rtk
     twitter_url: https://twitter.com/horaextrassa
+  -
+    city: Feira de Santana
+    time: Toda segunda às 18:30h
+    name: Gauchão Lanches
+    address: Avenida Getúlio Vargas, 2400, Santa Mônica. Feira de Santana, BA
+    geolocation: -12.255637,-38.943765
+    url: http://goo.gl/maps/MrVc4  
