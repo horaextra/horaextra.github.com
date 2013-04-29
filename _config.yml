@@ -7,10 +7,10 @@ places:
   -
     city: Rio de Janeiro
     time: Toda segunda às 19:30h
-    name: Antigamente Bar e Restaurante
-    address: R. do Ouvidor, 43 - Centro - Rio de Janeiro, RJ
-    geolocation: -22.902388,-43.175712
-    url: http://goo.gl/maps/pevBY
+    name: Bar Samba Caffé
+    address: Rua do Ouvidor, 23, Rio de Janeiro, RJ
+    geolocation: -22.902484,-43.175847
+    url: http://goo.gl/maps/pBfQR
     twitter_url: https://twitter.com/horaextrario
   -
     city: João Pessoa
