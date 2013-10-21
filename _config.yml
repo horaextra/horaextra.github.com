@@ -36,3 +36,11 @@ places:
     address: Avenida Getúlio Vargas, 2400, Santa Mônica. Feira de Santana, BA
     geolocation: -12.255637,-38.943765
     url: http://goo.gl/maps/MrVc4  
+  -
+    city: Maringá
+    time: Todo sábado às 18:00h
+    name: Pintxos
+    address: Av. Pedro Taques, 91, Zona 03.  Maringá, PR
+    geolocation: -23.4201926,-51.9281692
+    url: http://goo.gl/ChVyLQ  
+
