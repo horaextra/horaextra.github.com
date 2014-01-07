@@ -40,7 +40,13 @@ places:
     city: Maringá
     time: Todo sábado às 18:00h
     name: Pintxos
-    address: Av. Pedro Taques, 91, Zona 03.  Maringá, PR
+    address: Av. Pedro Taques, 91, Zona 03. Maringá, PR
     geolocation: -23.4201926,-51.9281692
-    url: http://goo.gl/ChVyLQ  
-
+    url: http://goo.gl/ChVyLQ
+  -
+    city: São José dos Campos
+    time: Todo terça às 19:30h
+    name: O Turco Gordo Lanchonete
+    address: Rua Pedro de Toledo, 108, Vila Adyana. São José dos Campos, SP
+    geolocation: -23.19887,-45.89378
+    url: http://goo.gl/maps/8h88S
