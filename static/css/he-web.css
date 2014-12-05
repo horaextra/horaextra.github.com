@@ -25,6 +25,10 @@
 	width:540px;
 }
 
+#internal header {
+  display: none;
+}
+
 /* Comment Form */
 
 #valid {
