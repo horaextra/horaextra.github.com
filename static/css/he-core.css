@@ -173,9 +173,8 @@ header {
 /* Content */
 
 #content {
-	background:url("../img/int-border.png") top repeat-x;
-  padding:0 0 90px 0;
-	float:left;
+  padding: 0 0 90px 0;
+	float: left;
 }
 
 #content img {
@@ -183,12 +182,12 @@ header {
 }
 
 #content a {
-  border-bottom:1px dotted #dbdbdb;
-  padding-bottom:3px;
+  border-bottom: 1px dotted #dbdbdb;
+  padding-bottom: 3px;
 }
 
 #content h2 {
-  margin:55px 0 12px 0;
+  margin: 0 0 12px 0;
   font-family: Questrial, Arial;
 	color: #616161;
 }
