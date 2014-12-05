@@ -11,6 +11,10 @@
   width:700px;
 }
 
+h2.description br {
+  display: none;
+}
+
 
 /* Content */
 
