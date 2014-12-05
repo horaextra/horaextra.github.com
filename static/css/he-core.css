@@ -1,7 +1,7 @@
 @charset "utf-8";
 
 /*
-2013 Hora Extra
+2011/2014 Hora Extra
 Author: HE:labs
 */
 
@@ -425,50 +425,24 @@ aside .comments a {
 /* Footer */
 
 footer {
-  text-shadow:none;
-  width:100%; height:150px;
-  border-top:5px solid #bbb;
-	background:#6c6c6c url("../img/liner.png") top repeat-x;
-	margin-top:40px;
-	text-align:center;
-	padding:20px 0 0 0;
-  color:#fff;
-  float:left;
+  width: 100%;
+  text-shadow: none;
+  border-top: 5px solid #bbb;
+	background: #6c6c6c url("../img/liner.png") top repeat-x;
+	margin-top: 40px;
+	text-align: center;
+	padding: 20px 0 20px 0;
+  color: #fff;
+  float: left;
 }
 
-footer .holder {
-  position:relative;
+#footer p {
+  margin: 0;
 }
 
-.foot-logo {
-  width:160px; height:166px;
-  position:absolute;
-  right:0; top:-149px;
-}
-
-
-/* Helabs */
-
-.foot-he a {
-  width:100%; height:76px;
-	background:url("../img/footer-logo.png") center no-repeat;
-  margin:15px 0 0 0;
-  text-indent:-9999px;
-  opacity:.7;
-  float:left;
-}
-
-@media only screen and (min-resolution: 768px) {
-
-	.foot-he a { 
-	    background:url("../img/footer-logo2x.png");
-	    background-size:50px 152px;
-	}
-
-}
-
-.foot-he a:hover {
-  opacity:.9;
+footer a img {
+  width: 150px;
+  margin: 15px auto;
 }
 
 
