@@ -1,18 +1,7 @@
-/* General */
-
-* {
-	-webkit-transition: padding 0.5s linear, margin 0.2s linear, border-color 1s linear;
-}
-
-
 /* Page */
 
 .holder {
-  width:700px;
-}
-
-h2.description br {
-  display: none;
+  width: 700px;
 }
 
 
@@ -101,258 +90,41 @@ h2.description {
 
 /* Max Width, 686px */
 
-@media (max-width:768px) {
+@media (max-width: 686px) {
+  
   
   /* General */
 
   body {
-    background:#fefefe !important;
+    background: #fefefe !important;
   }
-
-  h1 a {
-  	width:155px; height:25px;
-  	background:url("../img/m-logo.png");
-  }
-
-	@media only screen and (min-resolution: 768px) {
   
-  	h1 a { 
-  	    background:url("../img/m-logo2x.png");
-  	    background-size:155px 50px;
-  	}
-
-	}
-  
-
-  /* Topbar */
-
   #topbar {
-    border-color:#f6c535 !important;
+    border-color: #f6c535 !important;
+  }
+  
+  #topbar h1 a {
+  	width: auto;
+    height: auto;
+  	background: none;
+    display: inline;
+    text-indent: 0;
+    color: #fff;
+    font-size: 17px;
+    font-weight: normal;
+    padding: 0;
+    margin: 0;
+    float: left;
   }
   
   #topbar a {
-    padding-right:10px;
-    padding-left:10px;
+    padding-right: 10px;
+    padding-left: 10px;
   }
-
-  #topbar h1 a {
-  	width:124px; height:20px;
-  	background:url("../img/m-logo.png");
-    display:inline;
-    padding:0;
-    margin:12px 0 0 0;
-    float:left !important;
-  }
-
-	@media only screen and (min-resolution: 768px) {
-
-  	h1 a { 
-  	    background:url("../img/m-logo2x.png");
-  	    background-size:124px 40px;
-  	}
-
-	}
-  
-  #topbar h1 a:hover {
-    background-position:0 0;
-    background-color:inherit;
-  }  
-
-  /* Header */
-
-  header {
-    display:none;
-  }
-
-
-  /* Page */
-
-	.holder {
-		width:86%;
-		padding:0 7% 0 7%;
-	}
-  
-  
-  /* Content */
-
-	#content {
-		width:100%;
-    padding:30px 0 0 0;
-	}
-  
-  #content h2 {
-  	font-size:25px;
-    line-height:35px;
-    margin-top:45px;
-  }
-
-  
-  /* Comments */
-
-  .comments > li {
-    margin:15px 0 0 0;
-    padding-top:15px;
-  }
-  
-  
-  /* Aside */
-
-  aside {
-  	width:100%;
-    padding-bottom:40px;
-    margin-top:40px;
-  }
-  
-  #next-event {
-  	width:98%;
-    padding:1% 1% 0 1%;
-  }
-
-  #next-event > p, #next-event address {
-    margin-left:4%;
-  }
-  
-
-  /* Home */
-  
-  #call {
-    padding:60px 0 40px 0;
-  }
-
-  #call h1 {
-    display:none;
-  }
-  
-  h2.description {
-    font-size:30px;
-    text-align:left;
-    line-height:37px;
-  }
-  
-  
-  /* Columns */
-  
-  .column-01 {
-  	margin:0 0 40px 0;
-  }
-  
-  .column-01 h4, .column-02 h4 {
-  	font-size:25px !important;
-  }
-  
-  
-  /* Logos */
-  
-  .logos {
-  	margin-bottom:0 !important;
-  }
-
-}
-
-
-/* Max Width, 601px */
-
-@media (max-width:601px) {
-
-  /* Columns */
-
-  .column-01, .column-02 {
-  	width:100%;
-  }
-  
-  .column-01 h4, .column-02 h4 {
-  	margin:50px 0 20px 0;
-  }
-  
-  .column-02 h4 {
-    margin-top:10px;
-  }
-  
-
-  /* Next Event */
-  
-  #next {
-  	padding:45px 0 0 0;
-  }
-  
-  #next h3 {
-  	font-size:30px;
-  }
-  
-  /* Social */
-  
-  .social {
-    margin:25px 0 0 0;
-    float:left;
-  }
-
-  
-  /* Logo */
-  
-  .logos > li {
-    width:50%;
-  }
-
-}
-
-
-/* Max Width, 501px */
-
-@media (max-width:501px) {
-
-  /* Page */
-
-	.holder {
-		width:92%;
-		padding:0 4% 0 4%;
-	}
   
   #topbar h1 a {
-  	width:auto; height:auto;
-  	background:none;
-    display:inline;
-    text-indent:0;
-    color:#fff;
-    font-size:17px;
-    font-weight:normal;
-    padding:0;
-    margin:0;
-  }
-
-  
-  /* Comments */
-
-  .comments img {
-    width:68px; height:68px;
-  }
-  
-  aside .comments a {
-    margin-top:-20px;
-  }
-  
-  .comments div {
-    margin-left:90px;
-  }
-  
-
-  /* Placa */
-  
-  #placa p {
-    margin:60px 0 0 0;
-  }
-  
-}
-
-
-/* Max Width, 381px */
-
-@media (max-width:381px) {
-  
-
-  /* Topbar */
-  
-  #topbar a {
-    float:right;
+    background: none;
+    font-size: 14px;
   }
   
   #citys a {
@@ -360,40 +132,75 @@ h2.description {
     text-indent:-9999px;
     padding:0 !important;
   }
-  
-  #topbar h1 a {
-    background:none;
-    font-size:14px;
+
+  header {
+    display: none;
   }
-  
-  
-  /* Content */
+
+	.holder {
+		width: 90%;
+		padding: 0 5%;
+	}
+
+	#content {
+		width: 100%;
+    padding: 30px 0 0 0;
+	}
   
   #content h2 {
-  	font-size:20px;
-    line-height:30px;
+  	font-size: 20px;
+    line-height: 30px;
+    margin-top: 45px;
+  }
+
+  .comments > li {
+    margin: 15px 0 0 0;
+    padding-top: 15px;
+  }
+
+  aside {
+  	width: 100%;
+    padding-bottom: 40px;
+    margin-top: 40px;
   }
   
+  #next-event {
+  	width: 98%;
+    padding: 1% 1% 0 1%;
+  }
+
+  #next-event > p, #next-event address {
+    margin-left: 4%;
+  }
   
-  /* Form */
+  .comments img {
+    width: 68px;
+    height: 68px;
+  }
+  
+  aside .comments a {
+    margin-top: -20px;
+  }
+  
+  .comments div {
+    margin-left: 90px;
+  }
+
+  #placa p {
+    margin: 60px 0 0 0;
+  }
   
   .buts {
-    width:100%; height:44px;
-    text-align:center;
-  	padding:0;
+    width: 100%;
+    height: 44px;
+    text-align: center;
+  	padding: 0;
   }
-  
-  
-  /* Footer */
   
   footer {
-    padding-top:40px;
-
+    padding-top: 40px;
   }
-  
-  
-  /* Placa */
-  
+
   #placa {
     width:100%;
     text-align:center;
@@ -408,29 +215,69 @@ h2.description {
   #placa p {
     margin:0 !important;
   }
-
-}
-
-/* Max Width, 281px */
-
-	@media (max-width:281px) {
-
-	/* Topbar */
   
-	#topbar a {
-	  font-size:12px;
-	}
-	
 
   /* Home */
   
   #call {
     padding:50px 0 30px 0;
   }
+
+  #call h1 {
+    display: none;
+  }
   
   h2.description {
-    font-size:20px;
-    line-height:27px;
+    font-size: 30px;
+    text-align: left;
+    line-height: 37px;
+  }
+  
+  h2.description br {
+    display: none;
+  }
+  
+  .column-01 {
+  	margin: 0 0 40px 0;
+  }
+  
+  .column-01 h4,
+  .column-02 h4 {
+  	font-size: 25px !important;
+  }
+  
+  .column-01, .column-02 {
+  	width: 100%;
+  }
+  
+  .column-01 h4,
+  .column-02 h4 {
+  	margin: 50px 0 20px 0;
+  }
+  
+  .column-02 h4 {
+    margin-top: 10px;
+  }
+  
+  #next {
+  	padding:45px 0 0 0;
+  }
+  
+  #next h3 {
+  	font-size:30px;
+  }
+
+  .social {
+    margin:25px 0 0 0;
+    float:left;
+  }
+
+  .logos {
+  	margin-bottom: 0 !important;
+  }
+
+  .logos > li {
+    width: 50%;
   }
 
 }
