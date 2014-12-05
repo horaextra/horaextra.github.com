@@ -187,7 +187,7 @@ header {
 }
 
 #content h2 {
-  margin: 0 0 12px 0;
+  margin: 0 0 25px 0;
   font-family: Questrial, Arial;
 	color: #616161;
 }
@@ -358,11 +358,11 @@ textarea {
 /* Aside */
 
 aside {
-  box-shadow:#e3e3e3 0 0 15px;
-	width:300px;
-	padding-bottom:30px;
-  background:#fff;
-	float:right;
+	width: 300px;
+	padding-bottom: 30px;
+  margin-top: 90px;
+  background: #fff;
+	float: right;
 }
 
 aside .comments a {
