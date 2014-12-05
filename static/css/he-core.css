@@ -173,7 +173,7 @@ header {
 /* Content */
 
 #content {
-  padding: 0 0 90px 0;
+  padding: 100px 0 90px 0;
 	float: left;
 }
 
@@ -360,7 +360,6 @@ textarea {
 aside {
   box-shadow:#e3e3e3 0 0 15px;
 	width:300px;
-  margin-top:-120px;
 	padding-bottom:30px;
   background:#fff;
 	float:right;
