@@ -123,14 +123,17 @@ h2.description {
   }
 
   #responsive-menu {
-    display: block;
-    background: #ddd;
-    font-size: 1.35em;
-    text-align: center;
+    display: inline-block;
+    font-size: 2em;
     float: right;
-    padding: 8px;
-    border-radius: 3px;
-    margin: 4px;
+    color: #fff;
+    font-weight: normal;
+    cursor: pointer;
+    margin-top: 11px;
+  }
+  
+  #responsive-menu:hover {
+    opacity: .9;
   }
   
   #nav {
