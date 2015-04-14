@@ -43,7 +43,7 @@ places:
     name: Gauchão Lanches
     address: Avenida Getúlio Vargas, 2400, Santa Mônica. Feira de Santana, BA
     geolocation: -12.255637,-38.943765
-    url: http://goo.gl/maps/MrVc4  
+    url: http://goo.gl/maps/MrVc4
   -
     city: Maringá
     time: Todo sábado às 18:00h
@@ -58,3 +58,10 @@ places:
     address: Rua Pedro de Toledo, 108, Vila Adyana. São José dos Campos, SP
     geolocation: -23.19887,-45.89378
     url: http://goo.gl/maps/8h88S
+  -
+    city: Pato Branco
+    time: Toda sexta às 18:30h
+    name: Lanchonete do Panda Auto Posto
+    address: Rua Itabira, 1342, Centro. Pato Branco, PR
+    geolocation: -26.223846, -52.672652
+    url: http://goo.gl/9BX5RK
