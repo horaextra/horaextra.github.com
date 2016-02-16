@@ -59,6 +59,13 @@ places:
     geolocation: -23.19887,-45.89378
     url: http://goo.gl/maps/8h88S
   -
+    city: Marília
+    time: Toda terça às 19:00h
+    name: Doctor Beer
+    address: Av. Rio Branco, 1331 - Alto Cafezal, Marília - SP
+    geolocation: -22.2244701,-49.9625193,17
+    url: https://goo.gl/maps/afrHvJGtLAs
+  -
     city: Pato Branco
     time: Toda sexta às 18:30h
     name: Lanchonete do Panda Auto Posto
