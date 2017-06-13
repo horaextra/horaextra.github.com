@@ -1,3 +1,4 @@
+# coding: utf-8
 safe: true
 lsi: false
 pygments: true
@@ -26,7 +27,7 @@ places:
     time: Encontros periódicos, acompanhe no twitter
     name: Churrasquinho do Ivanildo
     address: R. José Augusto Trindade, 124 - Tambaú, João Pessoa - PB
-    geolocation: -7.118335,-34.824605
+    geolocation: -7.118335, -34.824605
     url: https://goo.gl/maps/PSACvuX9Q5E2
     twitter_url: https://twitter.com/horaextrajp
   -
