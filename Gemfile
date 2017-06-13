@@ -1,14 +1,14 @@
 source 'https://rubygems.org'
 
-ruby '1.9.3'
+ruby '2.4.1'
 
-gem 'jekyll',     '=1.1.2'
-gem 'liquid',     '=2.5.1'
-gem 'redcarpet',  '=2.2.2'
-gem 'maruku',     '=0.6.1'
-gem 'rdiscount',  '=1.6.8'
-gem 'RedCloth',   '=4.2.9'
-gem 'kramdown',   '=1.0.2'
+gem 'jekyll'
+gem 'liquid'
+gem 'redcarpet'
+gem 'maruku'
+gem 'rdiscount'
+gem 'RedCloth'
+gem 'kramdown'
 
 gem 'posterous'
-gem 'typhoeus', '0.4.2'
+gem 'typhoeus'

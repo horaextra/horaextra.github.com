@@ -1,2 +1,5 @@
 .DS_Store
 _site/
+.ruby-gemset
+.ruby-version
+.rvmrc
