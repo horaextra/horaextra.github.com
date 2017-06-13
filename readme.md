@@ -22,7 +22,7 @@ Bem vindo ao repositório do site do #horaextra. Abaixo temos informações sobr
 2) Crie uma branch com o titulo do seu post: git checkout -b post/titulo-do-seu-post
 
 3) Crie o seu post: touch _posts/ano-mes-dia-titulo-do-seu-post.html
- 
+
 4) Edite o seu post com o formato abaixo
 
 ```
@@ -33,7 +33,7 @@ layout: post
 title: "Título"
 date: AAAA-MM-DD HH:MM
 comments: true
-categories: 
+categories:
   - tags-que-quiser-usar
 ---
 
@@ -41,9 +41,9 @@ Conteúdo do post
 ```
 
 5) Faça um commit das mudanças: git commit -am 'post: Titulo do seu post'
- 
+
 6) Push na branch: git push origin post/titulo-do-seu-post
- 
+
 7) Mande um pull request e seja feliz. ;)
 
 ## License

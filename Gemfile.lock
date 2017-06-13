@@ -57,3 +57,9 @@ DEPENDENCIES
   rdiscount (= 1.6.8)
   redcarpet (= 2.2.2)
   typhoeus (= 0.4.2)
+
+RUBY VERSION
+   ruby 1.9.3p551
+
+BUNDLED WITH
+   1.15.1
