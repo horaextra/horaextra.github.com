@@ -73,3 +73,10 @@ places:
     address: Rua Itabira, 1342, Centro. Pato Branco, PR
     geolocation: -26.223846, -52.672652
     url: http://goo.gl/9BX5RK
+  -
+    city: Teresópolis
+    time: Toda sexta às 18:30h
+    name: a definir
+    address: a deinir
+    geolocation: 0, 0
+    url: https://goo.gl/maps/UZDMFmQrZzYRqtMB8
